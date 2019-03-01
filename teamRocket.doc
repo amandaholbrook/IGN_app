@@ -1,0 +1,39 @@
+Team Rocket is at it again! This time they are looking to terrorize the city of San Francisco, and aim to make the 
+trek through the “crookedest street in the world” ( Lombard Street ) to steal a treasure contained in Coit Tower. 
+Legend has it, the tower is completely filled with Poké Balls, enough Poké Balls for Team Rocket to amass an army of 
+Pokémon! Fortunately, a slumbering Pokémon is known to sleep at the bottom of Lombard St and block the entrance to 
+Coit Tower entirely. If Team Rocket determines how to wake the sleeping giant and successfully steals the cache of 
+Poké Balls that fills Coit Tower, about how many Poké Balls would they walk away with? Describe each step in your 
+thought process.
+
+
+My approach to this would be to simply find the dimensions of Coit Tower and of a pokeball, and then calculate how 
+many pokeballs could fit into the tower.
+
+I did some googling to find the various measurements.
+
+Tower Height: 210 ft
+Base(Solid) Height: 26 ft
+Height for Volume: 184 ft - 2208 in
+Tower Radius: 42 ft - 504 in
+(Width not listed anywhere, so I based it on the ratio I got from scaled pictures, which showed that the height was 
+about 2.5x the width.)
+Tower Volume: 1,760,000,000 in^3
+
+Pokeball Radis: 1.25 in
+Pokeball Volume: 8.18 in^3
+
+Here I would probably pretend the pokeballs are actually cylinders, since that it the shape of the building and so 
+that it the amount of space they would take up.
+
+Pokeball Radius: 1.25 in
+Pokeball Height: 2.50 in
+Pokeball Cylinder Volume: 12.27 in^3
+
+Now just divide the tower volume by the pokeball volume to see how may will fit.
+
+1,760,000,000 in^3 / 12.27 in^3
+= 143,439,282.804
+
+So about 143,439,282 pokeballs would fit inside the tower.
+That's a pretty big army for Team Rocket!
